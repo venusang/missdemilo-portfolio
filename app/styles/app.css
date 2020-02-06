@@ -1,0 +1,22 @@
+@import url("plugins.css");
+@import url("helper.css");
+@import url("style.css");
+
+kudos{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+}
+
+kudos .text {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    vertical-align: text-bottom;
+    margin-top: 1rem;
+}
+kudos img{
+    width: 25%;
+}
+
+
+

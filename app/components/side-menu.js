@@ -1,0 +1,16 @@
+import Component from '@glimmer/component';
+import { inject as service } from "@ember/service";
+
+export default class SideHeaderComponent extends Component {
+    @service router;
+
+    get isIndex() {
+        let routeName = this.router.currentRouteName;
+        if (routeName === 'index') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+}

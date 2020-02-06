@@ -1,0 +1,69 @@
+<!-- Side Header Overlay Start -->
+<div class="side-menu-overlay"></div>
+<!-- Side Header Overlay End -->
+
+<!-- Side Header Start -->
+<div class="side-header custom-scroll">
+    <!-- Side Header Inner Start -->
+    <div class="side-header-inner">
+        <button class="side-header-close d-block d-lg-none">
+            <span></span>
+        </button>
+        <!-- Side Header Logo Start -->
+        <div class="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
+            <LinkTo @route="index">
+                <img src="assets/images/profile-pic.jpg" />
+            </LinkTo>
+            <div class="name">Venus Ang</div>
+            <div>UI Developer</div>
+            <div>Greater Los Angeles Area</div>
+            <div class="social-media">
+                <a href="http://github.com/venusang" target="_blank">{{fa-icon "github"}}</a>
+                <a href="http://linkedin.com/in/venusang" target="_blank">{{fa-icon "linkedin"}}</a>
+            </div>
+            <hr />
+
+        </div>
+        <!-- Side Header Logo End -->
+
+        <!-- Side Header Logo Start -->
+        <div class="side-header-menu">
+
+            <nav id="side-menu" class="side-menu fullpage-menu">
+                {{#if this.isIndex}}
+                <ul>
+                    <li data-menuanchor="home" class="active">
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li data-menuanchor="portfolio"><a href="#portfolio">PORTFOLIO</a></li>
+                </ul>
+                {{else}}
+                <ul>
+                    <li>
+                        <LinkTo @route="index">HOME</LinkTo>
+                    </li>
+                </ul>
+                {{/if}}
+            </nav>
+
+        </div>
+        <!-- Side Header Menu End -->
+
+        <!-- Side Header Logo Start -->
+        <div class="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
+            <hr />
+            <kudos>
+                <img src="{{rootURL}}assets/images/sandiego-zoey.png" />
+                <div class="text">This site was built in<br />Ember Octane</div>
+            </kudos>
+            <hr />
+            <!-- Side Header Copyright -->
+            <div class="side-header-copyright">
+                <p>&copy; 2020 MISSDEMIL.COM<br />ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <!-- Side Header Footer End -->
+    </div>
+    <!-- Side Header Inner End -->
+</div>
+<!-- Side Header End -->
