@@ -6,20 +6,20 @@
 <div class="side-header custom-scroll">
     <!-- Side Header Inner Start -->
     <div class="side-header-inner">
-        <button class="side-header-close d-block d-lg-none">
+        <button aria-label="close side menu" class="side-header-close d-block d-lg-none">
             <span></span>
         </button>
         <!-- Side Header Logo Start -->
         <div class="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
             <LinkTo @route="index">
-                <img src="assets/images/profile-pic.jpg" />
+                <img src="assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
             </LinkTo>
             <div class="name">Venus Ang</div>
             <div>UI Developer</div>
             <div>Greater Los Angeles Area</div>
             <div class="social-media">
-                <a href="http://github.com/venusang" target="_blank">{{fa-icon "github"}}</a>
-                <a href="http://linkedin.com/in/venusang" target="_blank">{{fa-icon "linkedin"}}</a>
+                <a href="http://github.com/venusang" target="_blank" rel="noopener">{{fa-icon "github"}}</a>
+                <a href="http://linkedin.com/in/venusang" target="_blank" rel="noopener">{{fa-icon "linkedin"}}</a>
             </div>
             <hr />
 
@@ -53,7 +53,7 @@
         <div class="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
             <hr />
             <kudos>
-                <img src="{{rootURL}}assets/images/sandiego-zoey.png" />
+                <img alt="San Diego Zoey - Ember Mascot" src="{{rootURL}}assets/images/sandiego-zoey.png" />
                 <div class="text">This site was built in<br />Ember Octane</div>
             </kudos>
             <hr />
