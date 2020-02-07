@@ -3,7 +3,7 @@
 <!-- Side Header Overlay End -->
 
 <!-- Side Header Start -->
-<div class="side-header custom-scroll">
+<div class="side-header">
     <!-- Side Header Inner Start -->
     <div class="side-header-inner">
         <button aria-label="close side menu" class="side-header-close d-block d-lg-none">
@@ -11,18 +11,20 @@
         </button>
         <!-- Side Header Logo Start -->
         <div class="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
+            <div class="name">Venus Ang</div>
             <LinkTo @route="index">
                 <img src="assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
             </LinkTo>
-            <div class="name">Venus Ang</div>
             <div>UI Developer</div>
             <div>Greater Los Angeles Area</div>
             <div class="social-media">
-                <a href="http://github.com/venusang" target="_blank" rel="noopener">{{fa-icon "github"}}</a>
-                <a href="http://linkedin.com/in/venusang" target="_blank" rel="noopener">{{fa-icon "linkedin"}}</a>
+                <a href="{{@roolURL}}assets/VenusAngNov2019.pdf" aria-label="Download Venus Ang's resume"
+                    target="_blank" rel="noopener">{{fa-icon "file-pdf-o"}}</a>
+                <a href="http://github.com/venusang" aria-label="Visit Venus Ang's github repository" target="_blank"
+                    rel="noopener">{{fa-icon "github"}}</a>
+                <a href="http://linkedin.com/in/venusang" aria-label="Connect with Venus Ang on LinkedIn"
+                    target="_blank" rel="noopener">{{fa-icon "linkedin"}}</a>
             </div>
-            <hr />
-
         </div>
         <!-- Side Header Logo End -->
 
@@ -30,20 +32,9 @@
         <div class="side-header-menu">
 
             <nav id="side-menu" class="side-menu fullpage-menu">
-                {{#if this.isIndex}}
-                <ul>
-                    <li data-menuanchor="home" class="active">
-                        <a href="#home">HOME</a>
-                    </li>
-                    <li data-menuanchor="portfolio"><a href="#portfolio">PORTFOLIO</a></li>
-                </ul>
-                {{else}}
-                <ul>
-                    <li>
-                        <LinkTo @route="index">HOME</LinkTo>
-                    </li>
-                </ul>
-                {{/if}}
+                <LinkTo @route="index">HOME</LinkTo>
+                <span>|</span>
+                <LinkTo @route="projects">PORTFOLIO</LinkTo>
             </nav>
 
         </div>
@@ -52,16 +43,15 @@
         <!-- Side Header Logo Start -->
         <div class="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
             <hr />
+            <!-- Side Header Copyright -->
+            <div class="side-header-copyright">
+                <p>&copy; 2020 MISSDEMIL.COM<br />ALL RIGHTS RESERVED</p>
+            </div>
             <kudos>
                 <img alt="San Diego Zoey - Ember Mascot" src="{{rootURL}}assets/images/sandiego-zoey.svg" width="55"
                     height="63" />
                 <div class="text">This site was built in<br />Ember Octane</div>
             </kudos>
-            <hr />
-            <!-- Side Header Copyright -->
-            <div class="side-header-copyright">
-                <p>&copy; 2020 MISSDEMIL.COM<br />ALL RIGHTS RESERVED</p>
-            </div>
         </div>
         <!-- Side Header Footer End -->
     </div>

@@ -9852,7 +9852,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   .container {
-    width: 450px;
+    width: 43.125rem;
   }
 }
 
@@ -10069,7 +10069,7 @@ div#fp-nav li a {
   width: 0.75rem;
   height: 0.75rem;
   display: block;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   border: 1px solid #333333;
   background-color: transparent;
   cursor: pointer;
@@ -10182,7 +10182,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 
 .customizer-inner h4 {
   color: #333333;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -10280,7 +10280,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .header-section .container-fluid {
-    padding: 0 50px;
+    padding: 0 3.125rem;
   }
 }
 
@@ -10323,7 +10323,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 }
 
 .header-logo a img {
-  border-radius: 50px;
+  border-radius: 3.125rem;
   max-width: 100%;
 }
 
@@ -10348,7 +10348,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 
 .header-social a i {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
@@ -10526,7 +10526,7 @@ div#fp-nav li:hover .fp-tooltip::before {
   left: 0;
   top: 0;
   z-index: 999;
-  padding: 0 50px;
+  padding: 0 3.125rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: default !important;
@@ -10542,7 +10542,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .side-header {
     width: 260px;
-    padding: 1.5rem;
+    padding: 0.5rem;
   }
 }
 
@@ -10623,7 +10623,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 
 /*-- Side Header Logo --*/
 .side-header-logo {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .side-header-logo a {
@@ -10634,6 +10634,7 @@ div#fp-nav li:hover .fp-tooltip::before {
 .side-header-logo a img {
   border-radius: 50%;
   max-width: 100%;
+  margin: 1rem 0;
 }
 
 .side-header-logo a img.light-logo {
@@ -10645,8 +10646,17 @@ div#fp-nav li:hover .fp-tooltip::before {
 
 /*-- Side Header Menu --*/
 /*-- Side Menu --*/
+nav.side-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 nav.side-menu > ul > li {
-  margin-bottom: 21px;
+  margin-bottom: 1.3125px;
 }
 
 nav.side-menu > ul > li > a {
@@ -10690,7 +10700,7 @@ nav.side-menu > ul > li:last-child {
 
 /*-- Side Header Footer --*/
 .side-header-footer {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /*-- Side Header Contact Information --*/
@@ -10702,7 +10712,7 @@ nav.side-menu > ul > li:last-child {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   line-height: 1.5rem;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
   margin-bottom: 5px;
 }
 
@@ -10734,7 +10744,7 @@ nav.side-menu > ul > li:last-child {
 
 .side-header-social a i {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
@@ -10751,7 +10761,8 @@ nav.side-menu > ul > li:last-child {
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
+  margin-bottom: 1rem;
 }
 
 /*  04. About CSS */
@@ -10762,7 +10773,7 @@ nav.side-menu > ul > li:last-child {
 
 /*-- About Image --*/
 .about-content {
-  padding-left: 85px;
+  padding-left: 5.3125rem;
 }
 
 .about-content .block-title {
@@ -10770,12 +10781,12 @@ nav.side-menu > ul > li:last-child {
   line-height: 1;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
   margin-bottom: 28px;
 }
 
 .about-content p {
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10792,19 +10803,19 @@ nav.side-menu > ul > li:last-child {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .about-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
@@ -10819,7 +10830,7 @@ nav.side-menu > ul > li:last-child {
   line-height: 1.5rem;
   font-family: #333333;
   color: #555555;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .personal-info li span {
@@ -10890,7 +10901,7 @@ nav.side-menu > ul > li:last-child {
   content: attr(data-progress);
   position: absolute;
   right: 0;
-  bottom: 15px;
+  bottom: 0.9375rem;
   font-size: 0.875rem;
   line-height: 1;
   color: #555555;
@@ -10926,7 +10937,7 @@ nav.side-menu > ul > li:last-child {
   font-weight: 600;
   color: #333333;
   text-transform: uppercase;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
   margin-bottom: 20px;
 }
 
@@ -11003,7 +11014,7 @@ nav.side-menu > ul > li:last-child {
 }
 
 .portfolio-item .portfolio-content .title {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -11084,11 +11095,11 @@ nav.side-menu > ul > li:last-child {
 }
 
 .portfolio-details-content .category {
-  font-size: 16px;
+  font-size: 1rem;
   color: #555555;
   line-height: 1;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -11164,15 +11175,15 @@ nav.side-menu > ul > li:last-child {
 
 .portfolio-details-content .project-share span {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: #333333;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 }
 
 .portfolio-details-content .project-share a {
   color: #555555;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 }
 
 .portfolio-details-content .project-share a:last-child {
@@ -11185,7 +11196,7 @@ nav.side-menu > ul > li:last-child {
 
 .portfolio-details-content .project-share a i {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
 }
 
@@ -11228,13 +11239,13 @@ nav.side-menu > ul > li:last-child {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-details-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .portfolio-details-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
@@ -11342,7 +11353,7 @@ nav.side-menu > ul > li:last-child {
 }
 
 .error-404-content a {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 20px;
   text-transform: uppercase;
@@ -11404,7 +11415,7 @@ nav.side-menu > ul > li:last-child {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .footer-section .container-fluid {
-    padding: 0 50px;
+    padding: 0 3.125rem;
   }
 }
 

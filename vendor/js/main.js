@@ -1,12 +1,8 @@
 function loadScripts() {
-    /*--
-        Commons Variables
-    -----------------------------------*/
+
     var windows = $(window);
 
-    /*--
-        Side Header Open & Close Functions
-    ----------------------------------------------------------*/
+    /*--Side Header Open & Close Functions-----------------------------*/
     var sideHeader = $('.side-header');
     var sideHeaderToggle = $('.side-header-toggle');
     var sideHeaderClose = $('.side-header-close');
@@ -51,9 +47,7 @@ function loadScripts() {
         }
     });
 
-    /*--
-        Side Submenu
-    ----------------------------------------------------------*/
+    /*--Side Submenu--------------------------------------*/
     $('.side-menu .menu-item-has-children > a').prepend('<i class="expand menu-expand fa fa-angle-down"></i>');
     $('.side-menu .menu-item-has-children ul').slideUp();
 
@@ -79,48 +73,44 @@ function loadScripts() {
         }
     });
 
-    /*--
-        Full Page
-    ----------------------------------------------------------*/
-    $('#fullpage').fullpage({
-        menu: '.fullpage-menu',
-        lockAnchors: false,
-        anchors: ['home', 'portfolio'],
-        scrollOverflow: true,
-        navigation: true,
-        verticalCentered: false,
-        navigationTooltips: ['Home', 'Portfolio'],
-        responsiveWidth: 991,
-    });
+    /*--Full Page------------------------------------------*/
+    // $('#fullpage').fullpage({
+    //     menu: '.fullpage-menu',
+    //     lockAnchors: false,
+    //     anchors: ['home', 'portfolio'],
+    //     scrollOverflow: true,
+    //     navigation: true,
+    //     verticalCentered: false,
+    //     navigationTooltips: ['Home', 'Portfolio'],
+    //     responsiveWidth: 991,
+    // });
 
-    // FullPage Navigation Position
-    function fpNavPosition() {
-        var sideHeaderWidth = $('.side-header').outerWidth();
-        var screenSize = windows.width() - sideHeaderWidth;
-        var containerSize = $('.container').outerWidth();
-        $('#fp-nav.left').css('left', ((screenSize - containerSize) / 4));
-        $('#fp-nav.right').css('right', ((screenSize - containerSize) / 4));
-    }
-    // FullPage Navigation On Mobile
-    function fpNavCloseOnClickMobile() {
-        if (windows.width() < 992) {
-            $('.fullpage-menu').on('click', 'li a', function (e) {
-                $('.side-header-toggle').removeClass('toggle-close');
-                $('.side-menu-overlay').removeClass('overlay-show');
-                $('.side-header').removeClass('side-menu-open');
-            });
-        }
-    }
-    fpNavPosition();
-    fpNavCloseOnClickMobile();
-    windows.resize(function () {
-        fpNavPosition();
-        fpNavCloseOnClickMobile();
-    });
+    // // FullPage Navigation Position
+    // function fpNavPosition() {
+    //     var sideHeaderWidth = $('.side-header').outerWidth();
+    //     var screenSize = windows.width() - sideHeaderWidth;
+    //     var containerSize = $('.container').outerWidth();
+    //     $('#fp-nav.left').css('left', ((screenSize - containerSize) / 4));
+    //     $('#fp-nav.right').css('right', ((screenSize - containerSize) / 4));
+    // }
+    // // FullPage Navigation On Mobile
+    // function fpNavCloseOnClickMobile() {
+    //     if (windows.width() < 992) {
+    //         $('.fullpage-menu').on('click', 'li a', function (e) {
+    //             $('.side-header-toggle').removeClass('toggle-close');
+    //             $('.side-menu-overlay').removeClass('overlay-show');
+    //             $('.side-header').removeClass('side-menu-open');
+    //         });
+    //     }
+    // }
+    // fpNavPosition();
+    // fpNavCloseOnClickMobile();
+    // windows.resize(function () {
+    //     fpNavPosition();
+    //     fpNavCloseOnClickMobile();
+    // });
 
-    /*--
-        Masonry Portfolio
-    ----------------------------------------------------------*/
+    /*--Masonry Portfolio--------------------------------*/
     var masonryGrid = $('.masonry-grid');
     masonryGrid.imagesLoaded(function () {
         masonryGrid.masonry({
@@ -130,15 +120,13 @@ function loadScripts() {
     });
 
 
-    /*--
-        Custom Scroll Bar
-    ----------------------------------------------------------*/
-    $('.custom-scroll').each(function () {
-        var ps = new PerfectScrollbar($(this)[0]);
-        if (windows.width <= 991) {
-            ps.destroy();
-        }
-    });
+    /*--Custom Scroll Bar----------------------------------*/
+    // $('.custom-scroll').each(function () {
+    //     var ps = new PerfectScrollbar($(this)[0]);
+    //     if (windows.width <= 991) {
+    //         ps.destroy();
+    //     }
+    // });
 }
 
 function destroyFullpage() {

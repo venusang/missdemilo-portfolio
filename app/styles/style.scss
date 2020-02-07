@@ -150,7 +150,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   .container {
-    width: 450px;
+    width: 43.125rem;
   }
 }
 
@@ -376,7 +376,7 @@ div#fp-nav {
       width: 0.75rem;
       height: 0.75rem;
       display: block;
-      border-radius: 50px;
+      border-radius: 3.125rem;
       border: 1px solid #333333;
       background-color: transparent;
       cursor: pointer;
@@ -492,7 +492,7 @@ div#fp-nav {
 
   h4 {
     color: #333333;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1;
     margin-bottom: 10px;
   }
@@ -594,7 +594,7 @@ div#fp-nav {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .header-section .container-fluid {
-    padding: 0 50px;
+    padding: 0 3.125rem;
   }
 }
 
@@ -636,7 +636,7 @@ div#fp-nav {
     position: relative;
 
     img {
-      border-radius: 50px;
+      border-radius: 3.125rem;
       max-width: 100%;
 
       &.light-logo {
@@ -662,7 +662,7 @@ div#fp-nav {
 
     i {
       display: block;
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.5rem;
     }
 
@@ -861,7 +861,7 @@ div#fp-nav {
   left: 0;
   top: 0;
   z-index: 999;
-  padding: 0 50px;
+  padding: 0 3.125rem;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -878,7 +878,7 @@ div#fp-nav {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .side-header {
     width: 260px;
-    padding: 1.5rem;
+    padding: 0.5rem;
   }
 }
 
@@ -961,7 +961,7 @@ div#fp-nav {
 /*-- Side Header Logo --*/
 
 .side-header-logo {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 
   a {
     line-height: 1;
@@ -970,6 +970,7 @@ div#fp-nav {
     img {
       border-radius: 50%;
       max-width: 100%;
+      margin: 1rem 0;
 
       &.light-logo {
         position: absolute;
@@ -984,8 +985,13 @@ div#fp-nav {
 /*-- Side Header Menu --*/
 /*-- Side Menu --*/
 
+nav.side-menu {
+  display: flex;
+  justify-content: center;
+}
+
 nav.side-menu>ul>li {
-  margin-bottom: 21px;
+  margin-bottom: 1.3125px;
 
   >a {
     display: block;
@@ -1030,7 +1036,7 @@ nav.side-menu>ul>li {
 /*-- Side Header Footer --*/
 
 .side-header-footer {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /*-- Side Header Contact Information --*/
@@ -1042,7 +1048,7 @@ nav.side-menu>ul>li {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
     line-height: 1.5rem;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.046rem;
     margin-bottom: 5px;
 
     a {
@@ -1074,7 +1080,7 @@ nav.side-menu>ul>li {
 
     i {
       display: block;
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.5rem;
     }
 
@@ -1094,7 +1100,8 @@ nav.side-menu>ul>li {
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.046rem;
+  margin-bottom: 1rem;
 }
 
 /*  04. About CSS */
@@ -1106,50 +1113,50 @@ nav.side-menu>ul>li {
 
 /*-- About Image --*/
 
-.about-content {
-  padding-left: 85px;
+.section-content {
+  padding-left: 5.3125rem;
 
   .block-title {
     font-size: 1.5rem;
     line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.046rem;
     margin-bottom: 28px;
   }
 
   p {
-    letter-spacing: 0.75px;
+    letter-spacing: 0.046rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .about-content .block-title {
+  .section-content .block-title {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .about-content {
+  .section-content {
     padding-left: 45px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-content {
-    padding-left: 15px;
+  .section-content {
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-content {
-    padding-left: 15px;
+  .section-content {
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .about-content {
-    padding-left: 15px;
+  .section-content {
+    padding-left: 0.9375rem;
   }
 }
 
@@ -1164,7 +1171,7 @@ nav.side-menu>ul>li {
     line-height: 1.5rem;
     font-family: #333333;
     color: #555555;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 
     span {
       font-weight: 600;
@@ -1235,7 +1242,7 @@ nav.side-menu>ul>li {
         content: attr(data-progress);
         position: absolute;
         right: 0;
-        bottom: 15px;
+        bottom: 0.9375rem;
         font-size: 0.875rem;
         line-height: 1;
         color: #555555;
@@ -1277,7 +1284,7 @@ nav.side-menu>ul>li {
     font-weight: 600;
     color: #333333;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.046rem;
     margin-bottom: 20px;
   }
 
@@ -1356,7 +1363,7 @@ nav.side-menu>ul>li {
     z-index: 4;
 
     .title {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.5rem;
       font-weight: 600;
       letter-spacing: 1px;
@@ -1450,11 +1457,11 @@ nav.side-menu>ul>li {
   padding-left: 1.875rem;
 
   .category {
-    font-size: 16px;
+    font-size: 1rem;
     color: #555555;
     line-height: 1;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     font-family: "Poppins", sans-serif;
 
     &:hover {
@@ -1529,15 +1536,15 @@ nav.side-menu>ul>li {
 
     span {
       display: block;
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 600;
       color: #333333;
-      margin-right: 15px;
+      margin-right: 0.9375rem;
     }
 
     a {
       color: #555555;
-      margin-right: 15px;
+      margin-right: 0.9375rem;
 
       &:last-child {
         margin-right: 0;
@@ -1549,7 +1556,7 @@ nav.side-menu>ul>li {
 
       i {
         display: block;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 26px;
       }
     }
@@ -1595,13 +1602,13 @@ nav.side-menu>ul>li {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-details-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .portfolio-details-content {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
   }
 }
 
@@ -1716,7 +1723,7 @@ nav.side-menu>ul>li {
   }
 
   a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 20px;
     text-transform: uppercase;
@@ -1789,7 +1796,7 @@ nav.side-menu>ul>li {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .footer-section .container-fluid {
-    padding: 0 50px;
+    padding: 0 3.125rem;
   }
 }
 
