@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row align-items-top">
             <!-- Logo -->
-            <div class="header-logo col-8 mt-40 mb-40">
+            <div class="header-logo col-10">
                 <LinkTo @route="index">
                     <img alt="Venus Ang - Profile Picture" src="assets/images/profile-pic.jpg" />
                 </LinkTo>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <!-- Toggle Button -->
-            <div class="mt-40 mb-40 header-toggle-btn col text-right">
+            <div class="header-toggle-btn col text-right">
                 <button {{on "click" this.closeSideMenu}} aria-label="toggle side menu"
                     class="side-header-toggle"><span></span></button>
             </div>
@@ -46,9 +46,9 @@
             <span></span>
         </button>
         <!-- Side Header Logo Start -->
-        <div class="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
+        <div class="side-header-logo">
             <div class="name">Venus Ang</div>
-            <LinkTo @route="index" {{on "click" this.closeSideMenu}}>
+            <LinkTo @route="index" {{on "click" this.hideOverlay}}>
                 <img src="assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
             </LinkTo>
             <div>UI Developer</div>
@@ -76,7 +76,7 @@
         <!-- Side Header Menu End -->
 
         <!-- Side Header Logo Start -->
-        <div class="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
+        <div class="side-header-footer">
             <hr />
             <!-- Side Header Copyright -->
             <div class="side-header-copyright">
