@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row align-items-top">
             <!-- Logo -->
-            <div class="header-logo col-10">
+            <div class="header-logo col-9">
                 <LinkTo @route="index">
                     <img alt="Venus Ang - Profile Picture" src="assets/images/profile-pic.jpg" />
                 </LinkTo>
@@ -27,6 +27,14 @@
             <div class="header-toggle-btn col text-right">
                 <button {{on "click" this.closeSideMenu}} aria-label="toggle side menu"
                     class="side-header-toggle"><span></span></button>
+            </div>
+            <div class="social-media-mobile">
+                <a href="{{@roolURL}}assets/VenusAngNov2019.pdf" aria-label="Download Venus Ang's resume"
+                    target="_blank" rel="noopener">{{fa-icon "file-pdf-o"}}</a>
+                <a href="http://github.com/venusang" aria-label="Visit Venus Ang's github repository" target="_blank"
+                    rel="noopener">{{fa-icon "github"}}</a>
+                <a href="http://linkedin.com/in/venusang" aria-label="Connect with Venus Ang on LinkedIn"
+                    target="_blank" rel="noopener">{{fa-icon "linkedin"}}</a>
             </div>
         </div>
     </div>
