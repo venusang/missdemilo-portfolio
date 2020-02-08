@@ -660,6 +660,7 @@ img {
       visibility: visible;
       opacity: 1;
       left: 0;
+      overflow: auto;
     }
   }
 }
@@ -674,9 +675,11 @@ img {
       visibility: visible;
       opacity: 1;
       left: 0;
+      overflow: auto;
     }
   }
 }
+
 
 /*-- Mobile Side Header --*/
 
