@@ -10,9 +10,5 @@ module.exports = function (defaults) {
     }
   });
 
-  app.import("vendor/js/popper.min.js");
-  app.import("vendor/js/plugins.js");
-  app.import("vendor/js/main.js");
-
   return app.toTree();
 };

@@ -1,23 +1,60 @@
+<!-- Header Section Start -->
+<div class="header-section section d-block d-lg-none">
+    <div class="container-fluid">
+        <div class="row align-items-top">
+            <!-- Logo -->
+            <div class="header-logo col-8 mt-40 mb-40">
+                <LinkTo @route="index">
+                    <img alt="Venus Ang - Profile Picture" src="assets/images/profile-pic.jpg" />
+                </LinkTo>
+                <div class="header-details">
+                    <div>
+                        <div class="name">Venus Ang</div>
+                        <div>UI Developer</div>
+                        <div>Greater Los Angeles Area</div>
+                    </div>
+                    <div class="social-media">
+                        <a href="{{@roolURL}}assets/VenusAngNov2019.pdf" aria-label="Download Venus Ang's resume"
+                            target="_blank" rel="noopener">{{fa-icon "file-pdf-o"}}</a>
+                        <a href="http://github.com/venusang" aria-label="Visit Venus Ang's github repository"
+                            target="_blank" rel="noopener">{{fa-icon "github"}}</a>
+                        <a href="http://linkedin.com/in/venusang" aria-label="Connect with Venus Ang on LinkedIn"
+                            target="_blank" rel="noopener">{{fa-icon "linkedin"}}</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Toggle Button -->
+            <div class="mt-40 mb-40 header-toggle-btn col text-right">
+                <button {{on "click" this.closeSideMenu}} aria-label="toggle side menu"
+                    class="side-header-toggle"><span></span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Section End -->
+
 <!-- Side Header Overlay Start -->
-<div class="side-menu-overlay"></div>
+<div class="side-menu-overlay" {{on "click" this.closeSideMenu}}></div>
 <!-- Side Header Overlay End -->
 
 <!-- Side Header Start -->
 <div class="side-header">
     <!-- Side Header Inner Start -->
     <div class="side-header-inner">
-        <button aria-label="close side menu" class="side-header-close d-block d-lg-none">
+        <button aria-label="close side menu" {{on "click" this.closeSideMenu}}
+            class="side-header-close d-block d-lg-none">
             <span></span>
         </button>
         <!-- Side Header Logo Start -->
         <div class="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
             <div class="name">Venus Ang</div>
-            <LinkTo @route="index">
+            <LinkTo @route="index" {{on "click" this.closeSideMenu}}>
                 <img src="assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
             </LinkTo>
             <div>UI Developer</div>
             <div>Greater Los Angeles Area</div>
             <div class="social-media">
+
                 <a href="{{@roolURL}}assets/VenusAngNov2019.pdf" aria-label="Download Venus Ang's resume"
                     target="_blank" rel="noopener">{{fa-icon "file-pdf-o"}}</a>
                 <a href="http://github.com/venusang" aria-label="Visit Venus Ang's github repository" target="_blank"
@@ -30,13 +67,11 @@
 
         <!-- Side Header Logo Start -->
         <div class="side-header-menu">
-
             <nav id="side-menu" class="side-menu fullpage-menu">
-                <LinkTo @route="index">HOME</LinkTo>
+                <LinkTo @route="index" {{on "click" this.hideOverlay}}>HOME</LinkTo>
                 <span>|</span>
-                <LinkTo @route="projects">PORTFOLIO</LinkTo>
+                <LinkTo @route="projects" {{on "click" this.hideOverlay}}>PORTFOLIO</LinkTo>
             </nav>
-
         </div>
         <!-- Side Header Menu End -->
 
