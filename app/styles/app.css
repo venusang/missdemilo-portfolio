@@ -1110,7 +1110,7 @@ nav.side-menu span {
 }
 
 nav.side-menu a.active {
-  color: red;
+  color: #DF54A6;
   font-weight: bold;
 }
 
