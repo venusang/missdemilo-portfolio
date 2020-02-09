@@ -43,23 +43,15 @@ label {
   margin-bottom: .5rem;
 }
 
-article,
-aside,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
-legend,
-main,
 nav,
 section {
   display: block;
 }
 
 button,
-hr,
-input {
+hr {
   overflow: visible;
 }
 
@@ -120,12 +112,8 @@ body {
 }
 
 .btn,
-.card-header[role=tab],
 [type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
-button:not(:disabled),
-summary {
+button:not(:disabled) {
   cursor: pointer;
 }
 
