@@ -9,6 +9,7 @@ export default class SideMenuComponent extends Component {
         const sideHeaderToggle = document.querySelector('.side-header-toggle');
         const sideHeaderOverlay = document.querySelector('.side-menu-overlay');
         const sideHeader = document.querySelector('.side-header');
+        sideHeaderToggle.classList.remove('side-menu-open');
         sideHeaderOverlay.classList.remove('overlay-show');
         sideHeader.classList.remove('side-menu-open');
     }

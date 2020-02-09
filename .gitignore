@@ -3,8 +3,6 @@
 .DS_STORE
 portfolio.code-workspace
 
-/app/styles/app.css.map
-
 # compiled output
 /dist/
 /tmp/
