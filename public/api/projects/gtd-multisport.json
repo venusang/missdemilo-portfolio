@@ -1,0 +1,21 @@
+{
+	"data": {
+		"type": "projects",
+		"id": "gtd-multisport",
+		"attributes": {
+			"title": "GTD Multisport",
+			"description": "This is the project description",
+			"client": "GTD Multisport",
+			"services": [
+				"Web Development",
+				"Design",
+				"WordPress"
+			],
+			"website": "http://gtdmultisport.com",
+			"thumbnail": "gtd-logo.png",
+			"screenshots": [
+				"gtd/gtd-screenshot.jpg"
+			]
+		}
+	}
+}

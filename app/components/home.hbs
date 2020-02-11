@@ -1,56 +1,59 @@
 <!-- Content Body Start -->
 <div class="content-body section">
-    <!-- About Section Start -->
-    <div class="home">
-        <div class="container">
-            <div class="row">
-                <!-- About Content -->
-                <div class="section-content col-xl-12 col-12">
-                    <h3 class="block-title">{{@model.intro.title}}</h3>
-                    <p>
-                        {{@model.intro.intro}}
-                    </p>
+	<!-- About Section Start -->
+	<div class="home">
+		<div class="container">
+			<div class="row">
+				<!-- About Content -->
+				<div class="section-content col-xl-12 col-12">
 
-                    <!-- Personal Info -->
-                    <ul class="personal-info">
-                        <li><span>Hometown:</span>{{@model.intro.hometown}}</li>
-                        <li><span>Current Town:</span>{{@model.intro.currentTown}}</li>
-                    </ul>
-                    <h3 class="block-title">Skills</h3>
-                    <ul class="personal-info">
-                        <li><span>Specialties:</span>{{@model.intro.specialties}}</li>
-                        <li><span>UI Frameworks:</span>{{@model.intro.frameworks}}</li>
-                        <li><span>Other:</span>{{@model.intro.other}}</li>
-                    </ul>
-                    <!-- Skill Wrap -->
-                    <div class="skill-wrap">
-                        <!-- Single Skill -->
-                        <p>Relative skills self-assessment</p>
-                        <div class="single-skill">
-                            <span>Front-End Development</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 100%;"></div>
-                            </div>
-                        </div>
+					<h3 class="block-title">Thanks for stopping by!</h3>
+					<p>
+						"Hi, I’m Venus Ang, a Front-End Developer and UI/UX Designer. I have 10+ years of hands-on
+						experience in e-commerce, education, non-profit and entertainment. Additional samples available
+						upon request."
+					</p>
 
-                        <div class="single-skill">
-                            <span>Graphic Design (Photoshop, Sketch, Illustrator)</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%;"></div>
-                            </div>
-                        </div>
+					<!-- Personal Info -->
+					<ul class="personal-info">
+						<li><span>Hometown:</span>San Diego, CA</li>
+						<li><span>Current Town:</span>Los Angeles, CA</li>
+					</ul>
+					<h3 class="block-title">Skills</h3>
+					<ul class="personal-info">
+						<li><span>Specialties:</span>HTML, CSS, JavaScript (ES6)</li>
+						<li><span>UI Frameworks:</span>Ember.js (Octane), Vue.js, Angular, React, WordPress, BackBone.js</li>
+						<li><span>Other:</span>Ruby on Rails, Node.js, Shopify, Magento, .NET</li>
+					</ul>
+					<!-- Skill Wrap -->
+					<div class="skill-wrap">
+						<!-- Single Skill -->
+						<p>Relative skills self-assessment</p>
+						<div class="single-skill">
+							<span>Front-End Development</span>
+							<div class="skill-bar">
+								<div class="skill-progress" style="width: 100%;"></div>
+							</div>
+						</div>
 
-                        <!-- Single Skill -->
-                        <div class="single-skill">
-                            <span>Web Design</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<div class="single-skill">
+							<span>Graphic Design (Photoshop, Sketch, Illustrator)</span>
+							<div class="skill-bar">
+								<div class="skill-progress" style="width: 75%;"></div>
+							</div>
+						</div>
+
+						<!-- Single Skill -->
+						<div class="single-skill">
+							<span>Web Design</span>
+							<div class="skill-bar">
+								<div class="skill-progress" style="width: 85%;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<ProjectList />
+<Projects @projects={{@model}} />

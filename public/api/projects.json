@@ -2,37 +2,47 @@
 	"data": [
 		{
 			"type": "projects",
-			"id": "project-01",
+			"id": "gtd-multisport",
 			"attributes": {
-				"title": "First Project",
+				"title": "GTD Multisport",
 				"description": "This is the project description",
-				"client": "Client Name",
+				"client": "GTD Multisport",
+				"website": "http://gtdmultisport.com",
 				"services": [
 					"Web Development",
-					"Design"
+					"Design",
+					"WordPress"
 				],
-				"thumbnail": "fox-logo.png",
+				"thumbnail": "gtd-logo.png",
 				"screenshots": [
-					"d3/D3-general-information-before.png",
-					"d3/D3-general-information-after.png"
+					"gtd/gtd-screenshot.jpg"
 				]
 			}
 		},
 		{
 			"type": "projects",
-			"id": "project-02",
+			"id": "leaders-cosmetics",
 			"attributes": {
-				"title": "Second Project",
+				"title": "Leaders Cosmetics USA",
 				"description": "This is the project description",
-				"client": "Client Name",
+				"date": "June 2015",
+				"client": "Leaders Cosmetics USA",
 				"services": [
-					"Web Development",
-					"Design"
+					"E-Commerce",
+					"Logo Design",
+					"Marketing Landing Pages",
+					"Responsive Web",
+					"Shopify - Design and Custom Theme Development",
+					"UI/UX Design",
+					"Web Design",
+					"Web Development"
 				],
-				"thumbnail": "fox-logo.png",
+				"thumbnail": "leaders-logo.png",
 				"screenshots": [
-					"d3/D3-general-information-before.png",
-					"d3/D3-general-information-after.png"
+					"leaders/popover-before-957x667.png",
+					"leaders/popover-after-957x667.png",
+					"leaders/leaders-homepage-before.png",
+					"leaders/leaders-homepage-after.png"
 				]
 			}
 		}

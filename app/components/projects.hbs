@@ -1,0 +1,18 @@
+<!-- Portfolio Section Start -->
+<div class="content-body section">
+	<div class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-content">
+					<h3 class="block-title">PORTFOLIO</h3>
+					<div class="portfolio-grid">
+						{{#each @projects as |project|}}
+						<Project::Thumbnail @project={{project}} />
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Portfolio Section End -->

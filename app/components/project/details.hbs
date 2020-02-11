@@ -1,0 +1,52 @@
+<!-- Content Body Start -->
+<div class="content-body bg-grey project-details">
+	<div class="container">
+		<div class="row">
+			<!-- Portfolio Image -->
+			<div class="portfolio-details-image col-lg-9 col-12 mb-sm-30 mb-xs-30">
+				{{#each @project.screenshots as |screenshot|}}
+				<img src="/{{rootURL}}assets/images/portfolio/{{screenshot}}" alt="project description">
+				{{/each}}
+			</div>
+
+			<!-- Portfolio Content -->
+			<div class="portfolio-details-content col-lg-3 col-12">
+				<a href="#" class="category">PROJECT</a>
+				<h1 class="title">{{@project.title}}</h1>
+				<p>{{@project.description}}</p>
+				<!-- Project Info -->
+				<ul class="project-info">
+					<li><span>Client:</span> {{@project.client}}</li>
+					{{#if @project.date}}<li><span>Date:</span> {{@project.date}}</li>{{/if}}
+					{{#if @project.website}}
+					<li><span>Website:</span> <a href="{{@project.website}}" target="_blank">{{@project.website}}</a>
+					</li>
+					{{/if}}
+					<li>
+						<span>{{#if (gt @project.services.length 1)}}Services {{else}}Service{{/if}}:</span>
+						{{#each @project.services as |service|}}
+						<a href="#">{{service}}</a>
+						{{/each}}
+					</li>
+				</ul>
+
+				<!-- Project Nav -->
+				<div class="project-nav">
+
+					<a href="#" class="prev-project">
+						<span>prev project</span>
+						Project Title
+					</a>
+
+					<a href="#" class="next-project">
+						<span>next project</span>
+						Project Title
+					</a>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div><!-- Content Body End -->
