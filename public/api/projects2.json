@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "type": "projects",
+            "id": "project-01",
+            "attributes": {
+                "title": "First Project",
+                "description": "This is the project description",
+                "client": "Client Name",
+                "services": [
+                    "Web Development",
+                    "Design"
+                ],
+                "thumbnail": "fox-logo.png",
+                "screenshots": [
+                    "d3/D3-general-information-before.png",
+                    "d3/D3-general-information-after.png"
+                ]
+            }
+        },
+        {
+            "type": "projects",
+            "id": "project-02",
+            "attributes": {
+                "title": "Second Project",
+                "description": "This is the project description",
+                "client": "Client Name",
+                "services": [
+                    "Web Development",
+                    "Design"
+                ],
+                "thumbnail": "fox-logo.png",
+                "screenshots": [
+                    "d3/D3-general-information-before.png",
+                    "d3/D3-general-information-after.png"
+                ]
+            }
+        }
+    ]
+}
