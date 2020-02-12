@@ -2,19 +2,18 @@
 	"data": [
 		{
 			"type": "projects",
-			"id": "gtd-multisport",
+			"id": "gb-landscape-design",
 			"attributes": {
-				"title": "GTD Multisport",
-				"client": "GTD Multisport",
-				"website": "http://gtdmultisport.com",
+				"title": "GB Landscape Design",
+				"client": "GB Landscape Design",
+				"website": "http://gb-landscape-design.netlify.com/",
 				"services": [
 					"Web Development",
-					"Design",
-					"WordPress"
+					"Web Design"
 				],
-				"thumbnail": "gtd-logo.png",
+				"thumbnail": "gb-landscape-logo.png",
 				"screenshots": [
-					"gtd/gtd-screenshot.jpg"
+					"gb-landscape/gb-landscape-01.png"
 				]
 			}
 		},
@@ -110,6 +109,24 @@
 					"d3/Screenshot-2015-06-23-18.46.10-961x667.png",
 					"d3/Screenshot-2015-06-23-18.46.59.png",
 					"d3/Screenshot-2015-06-23-18.47.24-983x667.png"
+				]
+			}
+		},
+		{
+			"type": "projects",
+			"id": "gtd-multisport",
+			"attributes": {
+				"title": "GTD Multisport",
+				"client": "GTD Multisport",
+				"website": "http://gtdmultisport.com",
+				"services": [
+					"Web Development",
+					"Design",
+					"WordPress"
+				],
+				"thumbnail": "gtd-logo.png",
+				"screenshots": [
+					"gtd/gtd-screenshot.jpg"
 				]
 			}
 		},
