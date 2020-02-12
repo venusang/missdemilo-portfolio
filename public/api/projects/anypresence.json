@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "anypresence",
+    "attributes": {
+      "title": "AnyPresence",
+      "description": "This is the project description",
+      "date": "2013",
+      "client": "AnyPresence",
+      "services": [
+        "Web Development",
+        "UI/UX Design",
+        "Mobile Graphic Design"
+      ],
+      "thumbnail": "anypresence-logo.png",
+      "screenshots": [
+        "anypresence/ap-mc-1000x614.png",
+        "anypresence/ap-leon-1000x614.png"
+      ]
+    }
+  }
+}
