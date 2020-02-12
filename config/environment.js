@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'missdemilo-portfolio',
     environment,
@@ -16,6 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    ifa: { enabled: true },
 
     APP: {
       // Here you can pass flags/options to your application instance

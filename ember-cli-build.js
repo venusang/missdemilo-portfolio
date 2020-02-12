@@ -7,8 +7,9 @@ module.exports = function (defaults) {
     fingerprint: {
       enabled: true,
       generateAssetMap: true,
-      extensions: ['js', 'css', 'png', 'jpg', 'gif'],
-      replaceExtensions: ['html', 'js', 'css'],
+      fingerprintAssetMap: true,
+      // extensions: ['js', 'css', 'png', 'jpg', 'gif'],
+      // replaceExtensions: ['html', 'js', 'css'],
       prepend: 'https://missdemilo.netlify.com/'
     }
   });
