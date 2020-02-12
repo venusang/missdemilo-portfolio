@@ -23,7 +23,6 @@
 			"id": "corespring",
 			"attributes": {
 				"title": "Corespring",
-				"date": "2015",
 				"client": "Corespring",
 				"services": [
 					"Rapid Protyping",
@@ -47,7 +46,6 @@
 			"id": "leaders-cosmetics",
 			"attributes": {
 				"title": "Leaders Cosmetics USA",
-				"date": "June 2015",
 				"client": "Leaders Cosmetics USA",
 				"services": [
 					"E-Commerce",
@@ -73,7 +71,6 @@
 			"id": "trove",
 			"attributes": {
 				"title": "Trove",
-				"date": "2014",
 				"client": "Trove",
 				"services": [
 					"Web Design",
@@ -100,7 +97,6 @@
 			"id": "d3",
 			"attributes": {
 				"title": "D3",
-				"date": "2013",
 				"client": "D3",
 				"services": [
 					"UI/UX Design",
@@ -122,7 +118,6 @@
 			"id": "caa",
 			"attributes": {
 				"title": "CAA",
-				"date": "2012",
 				"client": "Creative Artists Agency (CAA)",
 				"services": [
 					"WordPress",
@@ -149,7 +144,6 @@
 			"id": "anypresence",
 			"attributes": {
 				"title": "AnyPresence",
-				"date": "2013",
 				"client": "AnyPresence",
 				"services": [
 					"Web Development",
@@ -186,7 +180,6 @@
 			"id": "rosenlaw",
 			"attributes": {
 				"title": "Rosen Law Firm",
-				"date": "2013",
 				"client": "Rosen Law Firm",
 				"website": "http://rosenlawfirm.info/",
 				"services": [
@@ -226,7 +219,6 @@
 			"id": "smart-living-company",
 			"attributes": {
 				"title": "Smart Living Company",
-				"date": "2013",
 				"client": "Smart Living Company",
 				"services": [
 					"E-Commerce",
