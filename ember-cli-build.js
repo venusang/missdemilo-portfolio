@@ -6,7 +6,7 @@ module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
       enabled: true,
-      // generateAssetMap: true,
+      generateAssetMap: true,
       extensions: ['js', 'css', 'png', 'jpg', 'gif'],
       replaceExtensions: ['html', 'js', 'css'],
       prepend: 'https://missdemilo.netlify.com/'
