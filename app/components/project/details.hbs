@@ -5,7 +5,8 @@
 			<!-- Portfolio Image -->
 			<div class="portfolio-details-image col-lg-9 col-12 mb-sm-30 mb-xs-30">
 				{{#each @project.screenshots as |screenshot|}}
-				<img src="/{{rootURL}}assets/images/portfolio/{{screenshot}}" alt="project description">
+				{{!-- <img src="/{{rootURL}}assets/images/portfolio/{{screenshot}}" alt="project description"> --}}
+				<img src={{asset-map (concat "assets/images/portfolio/" screenshot)}} />
 				{{/each}}
 			</div>
 
