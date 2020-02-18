@@ -8,4 +8,6 @@ export default class ProjectModel extends Model {
 	@attr thumbnail;
 	@attr website;
 	@attr screenshots;
+	@attr previous;
+	@attr next;
 }

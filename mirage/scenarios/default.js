@@ -1,4 +1,3 @@
-// import jsonDB from '../projects.js';
 
 let jsonDB = {
   projects: [
@@ -15,7 +14,9 @@ let jsonDB = {
       "thumbnail": "gb-landscape-logo.png",
       "screenshots": [
         "gb-landscape/gb-landscape-01.png"
-      ]
+      ],
+      "previous": "cantinas-ranch",
+      "next": "corespring"
     },
     {
       "type": "projects",
@@ -36,9 +37,12 @@ let jsonDB = {
         "corespring/ca-2064-02.png",
         "corespring/Corespring-Homepage-Before1.png",
         "corespring/Corespring-Homepage-After1.png"
-      ]
+      ],
+      "previous": "gb-landscape-design",
+      "next": "leaders-cosmetics"
     },
     {
+
       "type": "projects",
       "id": "leaders-cosmetics",
       "title": "Leaders Cosmetics USA",
@@ -55,11 +59,13 @@ let jsonDB = {
       ],
       "thumbnail": "leaders-logo.png",
       "screenshots": [
-        "leaders/gpopover-before-957x667.png",
+        "leaders/popover-before-957x667.png",
         "leaders/popover-after-957x667.png",
         "leaders/leaders-homepage-before.png",
         "leaders/leaders-homepage-after.png"
-      ]
+      ],
+      "previous": "corespring",
+      "next": "trove"
     },
     {
       "type": "projects",
@@ -83,7 +89,9 @@ let jsonDB = {
         "trove/trove-07.png",
         "trove/trove-08.png",
         "trove/trove-09.png"
-      ]
+      ],
+      "previous": "leaders-cosmetics",
+      "next": "d3"
     },
     {
       "type": "projects",
@@ -102,7 +110,9 @@ let jsonDB = {
         "d3/Screenshot-2015-06-23-18.46.10-961x667.png",
         "d3/Screenshot-2015-06-23-18.46.59.png",
         "d3/Screenshot-2015-06-23-18.47.24-983x667.png"
-      ]
+      ],
+      "previous": "trove",
+      "next": "gtd-multisport"
     },
     {
       "type": "projects",
@@ -118,7 +128,9 @@ let jsonDB = {
       "thumbnail": "gtd-logo.png",
       "screenshots": [
         "gtd/gtd-screenshot.jpg"
-      ]
+      ],
+      "previous": "d3",
+      "next": "caa"
     },
     {
       "type": "projects",
@@ -142,7 +154,9 @@ let jsonDB = {
         "caa/tourRouter-1.png",
         "caa/tourRouter-2.png",
         "caa/tourRouter-3.png"
-      ]
+      ],
+      "previous": "gtd-multisport",
+      "next": "anypresence"
     },
     {
       "type": "projects",
@@ -158,11 +172,13 @@ let jsonDB = {
       "screenshots": [
         "anypresence/ap-mc-1000x614.png",
         "anypresence/ap-leon-1000x614.png"
-      ]
+      ],
+      "previous": "caa",
+      "next": "ventata"
     },
     {
       "type": "projects",
-      "id": "ventana",
+      "id": "ventata",
       "title": "Ventata",
       "client": "Ventata",
       "services": [
@@ -174,7 +190,9 @@ let jsonDB = {
       "thumbnail": "ventata-logo.png",
       "screenshots": [
         "ventata/ventata-01.png"
-      ]
+      ],
+      "previous": "anypresence",
+      "next": "rosenlaw"
     },
     {
       "type": "projects",
@@ -190,7 +208,9 @@ let jsonDB = {
       "thumbnail": "rosenlawfirm-logo.png",
       "screenshots": [
         "rosenlaw/rosen-law-firm.png"
-      ]
+      ],
+      "previous": "ventata",
+      "next": "fcci"
     },
     {
       "type": "projects",
@@ -209,7 +229,9 @@ let jsonDB = {
       "screenshots": [
         "fcci/fcci-before.png",
         "fcci/fcci-after.png"
-      ]
+      ],
+      "previous": "rosenlaw",
+      "next": "smart-living-company"
     },
     {
       "type": "projects",
@@ -228,7 +250,9 @@ let jsonDB = {
         "slc/slc-login-before-after2-1000x479.png",
         "slc/slc-preferences-before1.png",
         "slc/slc-preferences-after1.jpg"
-      ]
+      ],
+      "previous": "fcci",
+      "next": "easton-robertson"
     },
     {
       "type": "projects",
@@ -244,7 +268,9 @@ let jsonDB = {
       "thumbnail": "easton-robertson-logo.png",
       "screenshots": [
         "eastonrobertson/easton-robertson.png"
-      ]
+      ],
+      "previous": "smart-living-company",
+      "next": "myspace"
     },
     {
       "type": "projects",
@@ -260,7 +286,9 @@ let jsonDB = {
         "myspace/BSG-Sept2006.jpg",
         "myspace/HerbalCupid-hub1.jpg",
         "myspace/Secret-Mashup1.png"
-      ]
+      ],
+      "previous": "easton-robertson",
+      "next": "experian"
     },
     {
       "type": "projects",
@@ -280,7 +308,9 @@ let jsonDB = {
         "experian/DM-v3.jpg",
         "experian/footballMock_v21.jpg",
         "experian/Holiday2007Email-v11.jpg"
-      ]
+      ],
+      "previous": "myspace",
+      "next": "chevy"
     },
     {
       "type": "projects",
@@ -294,7 +324,9 @@ let jsonDB = {
       "thumbnail": "chevy-logo.png",
       "screenshots": [
         "chevy/SkiChevy_layout_final.jpg"
-      ]
+      ],
+      "previous": "experian",
+      "next": "fox"
     },
     {
       "type": "projects",
@@ -310,7 +342,9 @@ let jsonDB = {
         "fox/fox-02.png",
         "fox/fox-03.png",
         "fox/fox-04.png"
-      ]
+      ],
+      "previous": "chevy",
+      "next": "cantinas-ranch"
     },
     {
       "type": "projects",
@@ -327,7 +361,9 @@ let jsonDB = {
         "cantinas/cantinas-ranch-logo-comparison-1000x614.png",
         "cantinas/homepage-before-after.jpg",
         "cantinas/boardmembers-before-after.jpg"
-      ]
+      ],
+      "previous": "fox",
+      "next": "gb-landscape-design"
     }
   ]
 }
