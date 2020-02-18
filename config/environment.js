@@ -16,10 +16,6 @@ module.exports = function (environment) {
         Date: false
       }
     },
-    ifa: {
-      enabled: true,
-      inline: false
-    },
 
     APP: {
       // Here you can pass flags/options to your application instance
