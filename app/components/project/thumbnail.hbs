@@ -2,8 +2,8 @@
 <div class="portfolio-item">
 	<LinkTo @route="project" @model={{@project}} @class="portfolio-image"
 		aria-label="View {{@project.client}} project details">
-		{{!-- <img src="assets/images/portfolio/{{@project.thumbnail}}" alt="project description" /> --}}
-		<img src={{asset-map (concat "assets/images/portfolio/" @project.thumbnail)}} alt="{{@project.client}}" />
+		<img src="assets/images/portfolio/{{@project.thumbnail}}" alt="project description" />
+		{{!-- <img src={{asset-map (concat "assets/images/portfolio/" @project.thumbnail)}} alt="{{@project.client}}" /> --}}
 	</LinkTo>
 
 	<div class="portfolio-content">

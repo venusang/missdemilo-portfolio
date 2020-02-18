@@ -6,7 +6,7 @@
 
 			<div class="header-logo col-9">
 				<LinkTo @route="index">
-					<img alt="Venus Ang - Profile Picture" src="assets/images/profile-pic.jpg" />
+					<img alt="Venus Ang - Profile Picture" src="/{{rootURL}}assets/images/profile-pic.jpg" />
 				</LinkTo>
 				<div class="header-details">
 					<div>
@@ -57,7 +57,7 @@
 		<div class="side-header-logo">
 			<div class="name">Venus Ang</div>
 			<LinkTo @route="index" {{on "click" this.hideOverlay}}>
-				<img src="assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
+				<img src="/{{rootURL}}assets/images/profile-pic.jpg" alt="Venus Ang - profile picture" />
 			</LinkTo>
 			<div>UI Developer</div>
 			<div>Greater Los Angeles Area</div>
