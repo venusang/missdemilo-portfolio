@@ -211,7 +211,7 @@ let jsonDB = {
       "id": "rosenlaw",
       "title": "Rosen Law Firm",
       "client": "Rosen Law Firm",
-      "website": "http://rosenlawfirm.info/",
+      "website": ["http://rosenlawfirm.info/"],
       "services": [
         "Web Development",
         "UI/UX Design",
