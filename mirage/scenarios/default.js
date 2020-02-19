@@ -7,6 +7,7 @@ let jsonDB = {
       "title": "GB Landscape Design",
       "client": "GB Landscape Design",
       "website": "http://gb-landscape-design.netlify.com/",
+      "github": "https://github.com/venusang/gb-landscapes",
       "services": [
         "Web Development",
         "Web Design"
@@ -23,6 +24,8 @@ let jsonDB = {
       "id": "corespring",
       "title": "Corespring",
       "client": "Corespring",
+      "website": ['https://missdemilo-des-12.netlify.com/', 'https://missdemilo-ca-2064.netlify.com/', 'https://missdemilo-ca-1666.netlify.com/'],
+      "github": ['https://github.com/venusang/des-12', 'https://github.com/venusang/ca-2064', 'https://github.com/venusang/ca-1666'],
       "services": [
         "Rapid Protyping",
         "UI/UX Design",
@@ -35,6 +38,7 @@ let jsonDB = {
         "corespring/des-12.png",
         "corespring/ca-2064-01.png",
         "corespring/ca-2064-02.png",
+        "corespring/ca-1666-01.png",
         "corespring/Corespring-Homepage-Before1.png",
         "corespring/Corespring-Homepage-After1.png"
       ],

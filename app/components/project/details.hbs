@@ -6,7 +6,6 @@
 			<div class="portfolio-details-image col-lg-9 col-12 mb-sm-30 mb-xs-30">
 				{{#each @project.screenshots as |screenshot|}}
 				<img src="/{{rootURL}}assets/images/portfolio/{{screenshot}}" alt="project description">
-				{{!-- <img src={{asset-map (concat "assets/images/portfolio/" screenshot)}} alt="project description" /> --}}
 				{{/each}}
 			</div>
 
@@ -19,7 +18,17 @@
 				<ul class="project-info">
 					<li><span>Client:</span> {{@project.client}}</li>
 					{{#if @project.website}}
-					<li><span>Website:</span> <a href="{{@project.website}}" target="_blank">{{@project.website}}</a>
+					<li><span>Website{{#if (gt @project.website.length 1)}}s{{/if}}:</span>
+						{{#each @project.website as |website|}}
+						<a href="{{website}}" target="_blank">{{website}}</a>
+						{{/each}}
+					</li>
+					{{/if}}
+					{{#if @project.github}}
+					<li><span>Github Repo{{#if (gt @project.github.length 1)}}s{{/if}}:</span>
+						{{#each @project.github as |repo|}}
+						<a href="{{repo}}" target="_blank">{{repo}}</a>
+						{{/each}}
 					</li>
 					{{/if}}
 					<li>

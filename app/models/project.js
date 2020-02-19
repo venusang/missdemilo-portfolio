@@ -7,6 +7,7 @@ export default class ProjectModel extends Model {
 	@attr services;
 	@attr thumbnail;
 	@attr website;
+	@attr github;
 	@attr screenshots;
 	@attr previous;
 	@attr next;
