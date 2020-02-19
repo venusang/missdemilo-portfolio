@@ -6,12 +6,13 @@ let jsonDB = {
       "id": "gb-landscape-design",
       "title": "GB Landscape Design",
       "client": "GB Landscape Design",
-      "website": "http://gb-landscape-design.netlify.com/",
-      "github": "https://github.com/venusang/gb-landscapes",
+      "website": ["http://gb-landscape-design.netlify.com/"],
+      "github": ["https://github.com/venusang/gb-landscapes"],
       "services": [
         "Web Development",
         "Web Design"
       ],
+      "github": ['https://github.com/venusang/gb-landscapes'],
       "thumbnail": "gb-landscape-logo.png",
       "screenshots": [
         "gb-landscape/gb-landscape-01.png"
@@ -51,6 +52,7 @@ let jsonDB = {
       "id": "leaders-cosmetics",
       "title": "Leaders Cosmetics USA",
       "client": "Leaders Cosmetics USA",
+      "github": ['https://github.com/venusang/leaders'],
       "services": [
         "E-Commerce",
         "Logo Design",
@@ -82,6 +84,8 @@ let jsonDB = {
         "Responsive Web",
         "UI/UX Design"
       ],
+      "website": ['https://missdemilo-trove.netlify.com/#/dashboard'],
+      "github": ["https://github.com/venusang/trove-demo"],
       "thumbnail": "trove-logo.png",
       "screenshots": [
         "trove/dashboard.png",
@@ -94,6 +98,7 @@ let jsonDB = {
         "trove/trove-08.png",
         "trove/trove-09.png"
       ],
+      "services": ["Web Development, Ember.js (2013), Rapid Prototyping, High Charts"],
       "previous": "leaders-cosmetics",
       "next": "d3"
     },
@@ -123,7 +128,7 @@ let jsonDB = {
       "id": "gtd-multisport",
       "title": "GTD Multisport",
       "client": "GTD Multisport",
-      "website": "http://gtdmultisport.com",
+      "website": ["http://gtdmultisport.com"],
       "services": [
         "Web Development",
         "Design",
@@ -169,9 +174,12 @@ let jsonDB = {
       "client": "AnyPresence",
       "services": [
         "Web Development",
+        "Backbone.js",
+        "Ruby on Rails",
         "UI/UX Design",
         "Mobile Graphic Design"
       ],
+      "github": ['https://github.com/venusang/mc'],
       "thumbnail": "anypresence-logo.png",
       "screenshots": [
         "anypresence/ap-mc-1000x614.png",
@@ -360,6 +368,7 @@ let jsonDB = {
         "Web Design",
         "WordPress Development"
       ],
+      "github": ['https://github.com/venusang/cantinasranch'],
       "thumbnail": "cantinas-logo.png",
       "screenshots": [
         "cantinas/cantinas-ranch-logo-comparison-1000x614.png",
