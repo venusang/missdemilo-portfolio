@@ -28,7 +28,7 @@ let jsonDB = {
       "website": ['https://missdemilo-des-12.netlify.com/', 'https://missdemilo-ca-2064.netlify.com/', 'https://missdemilo-ca-1666.netlify.com/'],
       "github": ['https://github.com/venusang/des-12', 'https://github.com/venusang/ca-2064', 'https://github.com/venusang/ca-1666'],
       "services": [
-        "Rapid Protyping",
+        "Rapid Prototyping",
         "UI/UX Design",
         "Web Application Design",
         "Web Design",
@@ -108,8 +108,7 @@ let jsonDB = {
       "title": "D3",
       "client": "D3",
       "services": [
-        "UI/UX Design",
-        "Web Design"
+        "UI/UX Design"
       ],
       "thumbnail": "d3-logo.png",
       "screenshots": [
