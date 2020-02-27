@@ -44,22 +44,14 @@
 					{{#if @project.previous}}
 					<LinkTo @class="prev-project" aria-label="View {{@project.previous}} project details" @route="project"
 						@model={{@project.previous}}>
-						Previous Project
+						{{fa-icon "chevron-left"}} Previous
 					</LinkTo>
-					{{!-- <a href="/projects/{{@project.next}}" class="prev-project">
-						<span>prev project</span>
-						Project Title
-					</a> --}}
 					{{/if}}
 					{{#if @project.next}}
 					<LinkTo @class="next-project" aria-label="View {{@project.next}} project details" @route="project"
 						@model={{@project.next}}>
-						Next Project
+						Next {{fa-icon "chevron-right"}}
 					</LinkTo>
-					{{!-- <a href="/projects/{{@project.next}}" class="next-project">
-						<span>next project</span>
-						Project Title
-					</a> --}}
 					{{/if}}
 
 				</div>

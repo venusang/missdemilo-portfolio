@@ -1,4 +1,4 @@
-@import 'bootstrap';
+@import "bootstrap";
 
 /*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800&display=swap");
@@ -363,7 +363,6 @@ img {
 
 /*-- Header Logo --*/
 
-
 .social-media-mobile {
   display: none;
 }
@@ -411,8 +410,6 @@ img {
   .social-media {
     margin-top: 1rem;
   }
-
-
 
   .social-media a {
     margin-right: 1rem;
@@ -683,7 +680,6 @@ img {
   }
 }
 
-
 /*-- Mobile Side Header --*/
 
 .mobile-side-header {
@@ -769,7 +765,7 @@ nav.side-menu {
   }
 
   a.active {
-    color: #DF54A6;
+    color: #df54a6;
     font-weight: bold;
   }
 }
@@ -779,7 +775,6 @@ nav.side-menu {
 .side-header-footer {
   margin-top: 3.125rem;
 }
-
 
 /*-- Side Header Copyright --*/
 
@@ -976,7 +971,8 @@ nav.side-menu {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-grid {
@@ -1003,11 +999,9 @@ nav.side-menu {
 
   .portfolio,
   .home {
-    margin: 0 auto
+    margin: 0 auto;
   }
 }
-
-
 
 .portfolio-item {
   position: relative;
@@ -1107,7 +1101,6 @@ nav.side-menu {
     }
 
     .portfolio-content {
-
       .title,
       .category {
         -webkit-transform: translateY(0);
@@ -1185,6 +1178,9 @@ nav.side-menu {
     li {
       display: block;
       margin-bottom: 10px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
 
       &:last-child {
         margin-bottom: 0;
@@ -1258,6 +1254,8 @@ nav.side-menu {
     margin-top: 35px;
     border-top: 1px solid #eeeeee;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 
     a {
       font-size: 0.875rem;
