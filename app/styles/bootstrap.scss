@@ -9,7 +9,7 @@ ol,
 p,
 pre,
 ul {
-  margin-top: 0
+  margin-top: 0;
 }
 
 address,
@@ -18,17 +18,17 @@ ol,
 p,
 pre,
 ul {
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 img,
 svg {
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 body,
 caption {
-  text-align: left
+  text-align: left;
 }
 
 dd,
@@ -39,19 +39,19 @@ h4,
 h5,
 h6,
 label {
-  margin-bottom: .5rem
+  margin-bottom: 0.5rem;
 }
 
 footer,
 header,
 nav,
 section {
-  display: block
+  display: block;
 }
 
 button,
 hr {
-  overflow: visible
+  overflow: visible;
 }
 
 :root {
@@ -81,49 +81,52 @@ hr {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 
 *,
 ::after,
 ::before {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff
+  background-color: #fff;
 }
-
 
 .btn,
-[type=button]:not(:disabled),
+[type="button"]:not(:disabled),
 button:not(:disabled) {
-  cursor: pointer
+  cursor: pointer;
 }
-
 
 a {
   color: #007bff;
   text-decoration: none;
-  background-color: transparent
+  background-color: transparent;
 }
 
 img {
-  border-style: none
+  border-style: none;
 }
 
 button {
@@ -132,22 +135,22 @@ button {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  text-transform: none
+  text-transform: none;
 }
 
-[type=button],
+[type="button"],
 button {
-  -webkit-appearance: button
+  -webkit-appearance: button;
 }
 
 .h3,
 h3 {
-  font-size: 1.75rem
+  font-size: 1.75rem;
 }
 
 .h4,
 h4 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 hr {
@@ -155,7 +158,7 @@ hr {
   height: 0;
   margin-top: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .1)
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .container,
@@ -164,68 +167,64 @@ hr {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  width: 100%
+  width: 100%;
 }
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px
+    max-width: 1140px;
   }
 }
 
 @media (min-width: 576px) {
-
   .container,
   .container-sm {
-    max-width: 540px
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-
   .container,
   .container-md,
   .container-sm {
-    max-width: 720px
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-
   .container,
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 960px
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px
+    max-width: 1140px;
   }
 }
 
@@ -235,9 +234,8 @@ hr {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px
+  margin-left: -15px;
 }
-
 
 .col,
 .col-1,
@@ -312,7 +310,7 @@ hr {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px
+  padding-left: 15px;
 }
 
 .col {
@@ -320,20 +318,19 @@ hr {
   flex-basis: 0;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  max-width: 100%
+  max-width: 100%;
 }
-
 
 .col-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
-  max-width: 75%
+  max-width: 75%;
 }
 
 .col-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -350,10 +347,9 @@ hr {
   }
 }
 
-
 .fa,
 .fa-stack {
-  display: inline-block
+  display: inline-block;
 }
 
 .fa {
@@ -361,15 +357,15 @@ hr {
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .d-block {
-  display: block !important
+  display: block !important;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .d-lg-none {
-    display: none !important
+    display: none !important;
   }
 }

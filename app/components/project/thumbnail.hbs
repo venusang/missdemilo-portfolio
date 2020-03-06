@@ -1,10 +1,8 @@
-<!-- Portfolio Item -->
 <div class="portfolio-item">
 	<LinkTo @route="project" @model={{@project}} @class="portfolio-image"
 		aria-label="View {{@project.client}} project details">
 		<img src="assets/images/portfolio/{{@project.thumbnail}}" alt="project description" />
 	</LinkTo>
-
 	<div class="portfolio-content">
 		<h4 class="title">
 			<LinkTo aria-label="View {{@project.client}} project details" @route="project" @model={{@project}}>

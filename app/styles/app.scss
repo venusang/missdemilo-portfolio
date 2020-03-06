@@ -1,9 +1,5 @@
 @import "bootstrap";
-
-/*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800&display=swap");
-
-/*-- Common Style --*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -171,13 +167,9 @@ img {
   }
 }
 
-/*-- Background Color --------------------*/
-
 .bg-grey {
   background-color: #f9f9f9 !important;
 }
-
-/*-- Main Wrapper ------------------------------------*/
 
 .main-wrapper {
   padding-top: 6.875rem;
@@ -304,8 +296,6 @@ img {
   }
 }
 
-/*  02. Header CSS */
-
 .header-section {
   position: fixed;
   left: 0;
@@ -361,8 +351,6 @@ img {
   }
 }
 
-/*-- Header Logo --*/
-
 .social-media-mobile {
   display: none;
 }
@@ -417,8 +405,6 @@ img {
   }
 }
 
-/*-- Header Social --*/
-
 .header-social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -450,8 +436,6 @@ img {
   }
 }
 
-/*-- Header Toggle Button --*/
-
 .header-toggle-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -466,8 +450,6 @@ img {
     display: inline-flex;
   }
 }
-
-/*-- Side Header Toggle --*/
 
 .side-header-toggle {
   padding: 0;
@@ -538,8 +520,6 @@ img {
   }
 }
 
-/*-- Side Header Close --*/
-
 .side-header-close {
   padding: 0;
   overflow: hidden;
@@ -595,8 +575,6 @@ img {
   }
 }
 
-/*-- Side Menu Overlay --*/
-
 .side-menu-overlay {
   background-color: #000000;
   width: 100%;
@@ -617,8 +595,6 @@ img {
     visibility: visible;
   }
 }
-
-/*-- Side Header --*/
 
 .side-header {
   background-color: #ffffff;
@@ -680,15 +656,11 @@ img {
   }
 }
 
-/*-- Mobile Side Header --*/
-
 .mobile-side-header {
   left: -320px;
   opacity: 0;
   visibility: hidden;
 }
-
-/*-- Side Header Inner --*/
 
 .side-header-inner {
   cursor: default;
@@ -729,8 +701,6 @@ img {
   }
 }
 
-/*-- Side Header Logo --*/
-
 .side-header-logo {
   margin-bottom: 3.125rem;
 
@@ -753,9 +723,6 @@ img {
   }
 }
 
-/*-- Side Header Menu --*/
-/*-- Side Menu --*/
-
 nav.side-menu {
   display: flex;
   justify-content: center;
@@ -770,13 +737,9 @@ nav.side-menu {
   }
 }
 
-/*-- Side Header Footer --*/
-
 .side-header-footer {
   margin-top: 3.125rem;
 }
-
-/*-- Side Header Copyright --*/
 
 .side-header-copyright p {
   font-family: "Poppins", sans-serif;
@@ -786,14 +749,9 @@ nav.side-menu {
   margin-bottom: 1rem;
 }
 
-/*  04. About CSS */
-/*-- About Image --*/
-
 .about-image img {
   width: 100%;
 }
-
-/*-- About Image --*/
 
 .section-content {
   padding-left: 5.3125rem;
@@ -1553,9 +1511,5 @@ kudos {
     line-height: 0.75rem;
     vertical-align: text-bottom;
     margin-top: 1rem;
-  }
-
-  img {
-    width: 25%;
   }
 }

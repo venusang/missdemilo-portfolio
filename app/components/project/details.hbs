@@ -1,20 +1,16 @@
-<!-- Content Body Start -->
+{{title @project.title}}
 <div class="content-body bg-grey project-details">
 	<div class="container">
 		<div class="row">
-			<!-- Portfolio Image -->
 			<div class="portfolio-details-image col-lg-9 col-12 mb-sm-30 mb-xs-30">
 				{{#each @project.screenshots as |screenshot|}}
 				<img src="/{{rootURL}}assets/images/portfolio/{{screenshot}}" alt="project description">
 				{{/each}}
 			</div>
-
-			<!-- Portfolio Content -->
 			<div class="portfolio-details-content col-lg-3 col-12">
 				<a href="#" class="category">PROJECT</a>
 				<h1 class="title">{{@project.title}}</h1>
 				{{#if @project.description}}<p>{{@project.description}}</p>{{/if}}
-				<!-- Project Info -->
 				<ul class="project-info">
 					<li><span>Client:</span> {{@project.client}}</li>
 					{{#if @project.website}}
@@ -38,8 +34,6 @@
 						{{/each}}
 					</li>
 				</ul>
-
-				<!-- Project Nav -->
 				<div class="project-nav">
 					{{#if @project.previous}}
 					<LinkTo @class="prev-project" aria-label="View {{@project.previous}} project details" @route="project"
@@ -53,11 +47,8 @@
 						Next {{fa-icon "chevron-right"}}
 					</LinkTo>
 					{{/if}}
-
 				</div>
-
 			</div>
-
 		</div>
 	</div>
-</div><!-- Content Body End -->
+</div>
