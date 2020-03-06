@@ -16,14 +16,14 @@
 					{{#if @project.website}}
 					<li><span>Website{{#if (gt @project.website.length 1)}}s{{/if}}:</span>
 						{{#each @project.website as |website|}}
-						<a href="{{website}}" target="_blank">{{website}}</a>
+						<a rel="noopener" href="{{website}}" target="_blank">{{website}}</a>
 						{{/each}}
 					</li>
 					{{/if}}
 					{{#if @project.github}}
 					<li><span>Github Repo{{#if (gt @project.github.length 1)}}s{{/if}}:</span>
 						{{#each @project.github as |repo|}}
-						<a href="{{repo}}" target="_blank">{{repo}}</a>
+						<a rel="noopener" href="{{repo}}" target="_blank">{{repo}}</a>
 						{{/each}}
 					</li>
 					{{/if}}
